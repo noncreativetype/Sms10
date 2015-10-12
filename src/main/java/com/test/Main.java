@@ -62,7 +62,7 @@ public class Main {
             // Send an sms (using the new messages endpoint)
             MessageFactory messageFactory = mainAccount.getMessageFactory();
             List<NameValuePair> messageParams = new ArrayList<NameValuePair>();
-            messageParams.add(new BasicNameValuePair("To", "+19142991173")); // Replace with a valid phone number
+            messageParams.add(new BasicNameValuePair("To", "+19172164313; // Replace with a valid phone number
             messageParams.add(new BasicNameValuePair("From", "+19142054512")); // Replace with a valid phone
             // number in your account
             messageParams.add(new BasicNameValuePair("Body", "Hello from Fabian Patino"));
